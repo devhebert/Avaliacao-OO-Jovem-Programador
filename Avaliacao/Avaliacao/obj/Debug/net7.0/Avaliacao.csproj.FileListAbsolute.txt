@@ -1,0 +1,30 @@
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.exe
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.deps.json
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.runtimeconfig.json
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.dll
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.pdb
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.csproj.AssemblyReference.cache
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.AssemblyInfoInputs.cache
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.AssemblyInfo.cs
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.csproj.CoreCompileInputs.cache
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.dll
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\refint\Avaliacao.dll
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.pdb
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.genruntimeconfig.cache
+C:\Users\hebert.barbosa\C#\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\ref\Avaliacao.dll
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.exe
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.deps.json
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.runtimeconfig.json
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.dll
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\bin\Debug\net7.0\Avaliacao.pdb
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.csproj.AssemblyReference.cache
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.AssemblyInfoInputs.cache
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.AssemblyInfo.cs
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.csproj.CoreCompileInputs.cache
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.dll
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\refint\Avaliacao.dll
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.pdb
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\Avaliacao.genruntimeconfig.cache
+C:\Users\Camila\Desktop\Hebinho\C++C#\Jovem Programador\C#\PROJETOS COM MVC REPOSITORY\Avaliacao\Avaliacao\Avaliacao\obj\Debug\net7.0\ref\Avaliacao.dll

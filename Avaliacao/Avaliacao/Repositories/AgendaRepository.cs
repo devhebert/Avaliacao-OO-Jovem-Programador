@@ -30,12 +30,7 @@ public class AgendaRepository
         agendaList[index] = agenda;
         Console.WriteLine($"Agenda atualizada com sucesso!");
     }
-    
-    public static void ToogleTaskStatus(int index, AgendaModel concluido){
-        agendaList[index] = concluido;
-        Console.WriteLine($"Status da tarefa atualizado com sucesso!");
-    }
-    
+
     public static AgendaModel GetAgenda(int index){
         if(index < 0 || index >= agendaList.Count){
             Console.WriteLine("Indice não encontrado.");

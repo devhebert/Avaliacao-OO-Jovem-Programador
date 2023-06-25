@@ -5,13 +5,13 @@ namespace Agenda.Models;
 public class AgendaModel
 {
     private string nome { get; set; }
-    private DateTime? data { get; set; }
+    private DateTime data { get; set; }
     private bool concluido { get; set; }
 
     public AgendaModel(AgendaVO agenda)
     {
         this.nome = agenda.nome;
-        this.data = agenda.data;
+        this.data = (DateTime)agenda.data;
         this.concluido = (bool) agenda.concluido;
         
         AgendaRepository.Create(this);
@@ -42,8 +42,8 @@ public class AgendaModel
     
     public static void Delete(int index)
     {
-        AgendaModel cachorro = GetAgenda(index);
-        if (cachorro != null)
+        AgendaModel agendaItem = GetAgenda(index);
+        if (agendaItem != null)
         {
             AgendaRepository.Delete(index);
         }
@@ -56,7 +56,7 @@ public class AgendaModel
         {
             agendaModel.concluido = !agendaModel.concluido;
 
-            AgendaRepository.ToogleTaskStatus(index, agendaModel);
+            AgendaRepository.Update(index, agendaModel);
         }
     }
     

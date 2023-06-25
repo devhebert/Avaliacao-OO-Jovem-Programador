@@ -4,9 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            bool sair = false;
+            bool exit = false;
 
-            while (!sair)
+            while (!exit)
             {
                 Console.WriteLine("\n----- MENU -----");
                 Console.WriteLine("1 - CRUD AGENDA");
@@ -14,15 +14,15 @@
                 Console.WriteLine("----------------\n");
                 Console.Write("Selecione uma opção: ");
 
-                string opcao = Console.ReadLine();
+                string option = Console.ReadLine();
 
-                switch (opcao)
+                switch (option)
                 {
                     case "1":
                         Views.AgendaView.Run();
                         break;
                     case "2":
-                        sair = true;
+                        exit = true;
                         Console.WriteLine("Saindo...");
                         break;
                     default:

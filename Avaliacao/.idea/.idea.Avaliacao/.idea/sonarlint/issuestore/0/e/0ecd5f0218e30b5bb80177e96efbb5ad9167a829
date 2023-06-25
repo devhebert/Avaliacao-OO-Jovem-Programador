@@ -1,6 +1,0 @@
-
-lcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(í´ÙÌ
-scsharpsquid:S1848"QEither remove this useless object instantiation of class 'AgendaModel' or use it.(©…†¶úÿÿÿÿ
-csharpsquid:S2583)"mChange this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.(ÈØ†ğúÿÿÿÿ
-csharpsquid:S2583B"mChange this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.(ÈØ†ğúÿÿÿÿ
-csharpsquid:S2583U"mChange this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.(ÈØ†ğúÿÿÿÿ

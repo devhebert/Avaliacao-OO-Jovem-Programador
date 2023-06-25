@@ -4,13 +4,13 @@ namespace Programa.Controllers;
 
 public class AgendaController
 {
-    public static void Create(AgendaVO agendaVO)
+    public static void Create(AgendaVO agendaVo)
     {
         try
         {
             foreach (var property in typeof(AgendaVO).GetProperties())
             {
-                var value = property.GetValue(agendaVO);
+                var value = property.GetValue(agendaVo);
         
                 if (value == null)
                 {
@@ -20,7 +20,7 @@ public class AgendaController
                 }
             }
 
-            new AgendaModel(agendaVO);
+            new AgendaModel(agendaVo);
         }
         catch (Exception e)
         {
@@ -29,12 +29,12 @@ public class AgendaController
         }
     }
     
-    public static List<AgendaModel> ReadAgenda()
+    public static List<AgendaModel> Read()
     {
         return AgendaModel.Read();
     }
 
-    public static void Update(int index, AgendaVO agendaVO)
+    public static void Update(int index, AgendaVO agendaVo)
     {
         try
         {
@@ -44,13 +44,13 @@ public class AgendaController
                 return;
             }
             
-            if (agendaVO.nome == null && agendaVO.data == null && agendaVO.concluido == null)
+            if (agendaVo.nome == null && agendaVo.data == null && agendaVo.concluido == null)
             {
                 Console.WriteLine("Digite as informações corretamente.");
                 return;
             }
 
-            AgendaModel.Update(index, agendaVO);
+            AgendaModel.Update(index, agendaVo);
         }
         catch (Exception e)
         {

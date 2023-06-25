@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using System.Text.RegularExpressions;
 using Agenda.Models;
 using Programa.Controllers;
 
@@ -8,8 +7,8 @@ public class AgendaView
 {
     public static void Run()
     {
-        bool sair = false;
-        while (!sair)
+        bool exit = false;
+        while (!exit)
         {
             Console.WriteLine("Escolha uma opção:");
             Console.WriteLine("1. CREATE AGENDA.");
@@ -39,7 +38,7 @@ public class AgendaView
                     ToogleTaskStatus();
                     break;
                 case "6":
-                    sair = true;
+                    exit = true;
                     break;
                 default:
                     Console.WriteLine("Opção inválida. Tente novamente.");
@@ -50,20 +49,19 @@ public class AgendaView
 
     private static void CreateAgenda()
     {
-        bool concluido = false;
         string input;
-        AgendaVO agendaVO = new AgendaVO();
+        AgendaVO agendaVo = new AgendaVO();
         
         Console.WriteLine("Informe o nome da tarefa:");
         input = Console.ReadLine();
-        agendaVO.nome = input;
+        agendaVo.nome = input;
 
         Console.WriteLine("Informe a data e hora (formato DD-MM-AAAA HH:mm):");
         input = Console.ReadLine();
         
         if (DateTime.TryParseExact(input, "dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data))
         {
-            agendaVO.data = data;
+            agendaVo.data = data;
         }
         else
         {
@@ -80,20 +78,20 @@ public class AgendaView
             input = Console.ReadLine();
             input = input.ToLower();
         }
-        concluido = (input == "s");
-        agendaVO.concluido = concluido;
+        bool completed = (input == "s");
+        agendaVo.concluido = completed;
         
-        AgendaController.Create(agendaVO);
+        AgendaController.Create(agendaVo);
     }
     
     private static void ReadAgenda()
     {
         int index = 1;
-        List<AgendaModel> agendas = AgendaController.ReadAgenda();
+        List<AgendaModel> tasks = AgendaController.Read();
 
-        foreach (AgendaModel agenda in agendas)
+        foreach (AgendaModel task in tasks)
         {
-            Console.WriteLine($"ID: ({index}) - {agenda}");
+            Console.WriteLine($"ID: ({index}) - {task}");
             index++;
         }
     }
@@ -117,7 +115,7 @@ public class AgendaView
 
         string[] listInfos = infos.Split(',');
 
-        AgendaVO agendaVO = new AgendaVO();
+        AgendaVO agendaVo = new AgendaVO();
 
         foreach (string info in listInfos)
         {
@@ -126,7 +124,7 @@ public class AgendaView
                 case "nome":
                     Console.WriteLine("Informe o novo nome da tarefa: ");
                     input = Console.ReadLine();
-                    agendaVO.nome = input;
+                    agendaVo.nome = input;
                     break;
                 case "data":
                     Console.WriteLine("Informe a nova data e hora da tarefa (formato DD-MM-AAAA HH:mm): ");
@@ -134,7 +132,7 @@ public class AgendaView
                     
                     if (DateTime.TryParseExact(input, "dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data))
                     {
-                        agendaVO.data = data;
+                        agendaVo.data = data;
                     }
                     else
                     {
@@ -153,7 +151,7 @@ public class AgendaView
                         input = input.ToLower();
                     }
                     bool concluido = (input == "s");
-                    agendaVO.concluido = concluido;
+                    agendaVo.concluido = concluido;
                     break;
                 default:
                     Console.WriteLine($"A propriedade '{info.Trim()}' não existe e será ignorada.");
@@ -161,10 +159,10 @@ public class AgendaView
             }
         }
         
-        AgendaController.Update(index - 1, agendaVO);
+        AgendaController.Update(index - 1, agendaVo);
     }
     
-    public static void DeleteAgenda()
+    private static void DeleteAgenda()
     {
         Console.WriteLine("Informe o ID da tarefa: ");
         Console.WriteLine("Caso não saiba o ID, verifique na opção: [2. READ AGENDA] do menu anteior.");
